@@ -1,0 +1,11 @@
+D:\TMP\CakeDemo\CakeDemo\artifacts\Cake.Comon.dll
+D:\TMP\CakeDemo\CakeDemo\artifacts\Cake.Comon.deps.json
+D:\TMP\CakeDemo\CakeDemo\artifacts\Cake.Comon.pdb
+D:\TMP\CakeDemo\CakeDemo\artifacts\Cake.Core.dll
+D:\TMP\CakeDemo\CakeDemo\artifacts\Microsoft.Win32.Registry.dll
+D:\TMP\CakeDemo\CakeDemo\artifacts\System.Security.AccessControl.dll
+D:\TMP\CakeDemo\CakeDemo\artifacts\System.Security.Principal.Windows.dll
+D:\TMP\CakeDemo\CakeDemo\artifacts\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+D:\TMP\CakeDemo\CakeDemo\artifacts\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\TMP\CakeDemo\CakeDemo\artifacts\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\TMP\CakeDemo\CakeDemo\artifacts\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll

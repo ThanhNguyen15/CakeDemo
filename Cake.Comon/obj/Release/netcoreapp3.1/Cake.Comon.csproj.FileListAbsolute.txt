@@ -1,0 +1,9 @@
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\bin\Release\netcoreapp3.1\Cake.Comon.deps.json
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\bin\Release\netcoreapp3.1\Cake.Comon.dll
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\bin\Release\netcoreapp3.1\Cake.Comon.pdb
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\obj\Release\netcoreapp3.1\Cake.Comon.AssemblyInfoInputs.cache
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\obj\Release\netcoreapp3.1\Cake.Comon.AssemblyInfo.cs
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\obj\Release\netcoreapp3.1\Cake.Comon.csproj.CoreCompileInputs.cache
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\obj\Release\netcoreapp3.1\Cake.Comon.dll
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\obj\Release\netcoreapp3.1\Cake.Comon.pdb
+D:\TMP\CakeDemo\CakeDemo\Cake.Comon\obj\Release\netcoreapp3.1\Cake.Comon.csproj.AssemblyReference.cache

@@ -1,0 +1,11 @@
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\bin\Debug\net5.0\MyLibrary.deps.json
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\bin\Debug\net5.0\MyLibrary.dll
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\bin\Debug\net5.0\ref\MyLibrary.dll
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\bin\Debug\net5.0\MyLibrary.pdb
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\obj\Debug\net5.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\obj\Debug\net5.0\MyLibrary.AssemblyInfoInputs.cache
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\obj\Debug\net5.0\MyLibrary.AssemblyInfo.cs
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\obj\Debug\net5.0\MyLibrary.csproj.CoreCompileInputs.cache
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\obj\Debug\net5.0\MyLibrary.dll
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\obj\Debug\net5.0\ref\MyLibrary.dll
+D:\TMP\CakeDemo\CakeDemo\MyLibrary\obj\Debug\net5.0\MyLibrary.pdb

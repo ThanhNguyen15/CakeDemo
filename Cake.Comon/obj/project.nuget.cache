@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "TFIQ1gxZBG9Xt4g0W9JJNhlYRkfZ96lZ21HW59gGamMopXuuxWqVuZEonQPWLent7SnWwqzkReZIEY4uF6EkCA==",
+  "success": true,
+  "projectFilePath": "D:\\TMP\\CakeDemo\\CakeDemo\\Cake.Comon\\Cake.Comon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thanhnguyen\\.nuget\\packages\\cake.core\\1.1.0\\cake.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\thanhnguyen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\thanhnguyen\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\thanhnguyen\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\thanhnguyen\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\thanhnguyen\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

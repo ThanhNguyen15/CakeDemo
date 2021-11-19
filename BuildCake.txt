@@ -1,0 +1,106 @@
+-- Build Cake 
+Projects (.Net 5)
++ MyLibrary
+public class Calculator 
+{
+	public double Add(double  x, double y) => x + y;
+	public double Subtract(double  x, double y) => x - y;
+}
++ MyLibrary.Tests
+using system
+using Xunit;
+public class CalculatorTest 
+{
+	private readonly Calculator _calulator'
+	public CalculatorTest()
+	{
+		_calulator = new Calculator();
+	}
+	
+	[theory]
+	[inlineData(5,4,9)]
+	[inlineData(2,8,10)]
+	[inlineData(1,2,3)]
+	public void Add_ShouldWork(double x, double y, double expected)
+	{
+		double actual = _calulator.Add(x, y);
+		Assert.Equal(expected, actual);
+	}
+}
++ MyWebApp
+
+
+
+Open Visual Studio Code 
+- install Cake 1.0.0 Extension
+- PS C:\CakeDemo> donet new tool-manifest
+- PS C:\CakeDemo> dotnet tool install Cake.Tool
++ that is will update donet-tool.json file
+- create new file 'build.cake' (type build script)
+- Invoke-WebRequest http://cakebuild.net/download/bootstrapper/windows -OutFile build.ps1
+
+-------- build.cake file ----------------
+var target = Argument("target", "Publish");
+var configuration = Argument("configuration", "Release");
+var solutionFolder = "./";
+var myLibraryFolder= "./MyLibrary";
+var outputFolder = "./artifacts";
+var myLibraryOutputfolder= "./myLibraryArtifacts";
+
+Task("Clean")
+    .Does(()=>{
+        CleanDirectory(outputFolder);
+    });
+
+
+Task("Restore")
+    .Does(()=> {
+        DotNetCoreRestore(solutionFolder);
+    });
+Task("Build")
+	.IsDependentOn("Clean")
+	.IsDependentOn("Restore")
+	.Does(() => {
+		DotNetCoreBuild(solutionFolder, new DotNetCoreBuildSettings {
+			NoRestore = true,
+			Configuration = configuration
+		});
+	});
+
+Task("Test")
+	.IsDependentOn("Build")
+	.Does(()=> {
+		DotNetCoreTest(solutionFolder, new DotNetCoreTestSettings {
+			NoRestore = true,
+			Configuration = configuration,
+			NoBuild = true
+		});
+	});
+
+Task("Publish")
+	.IsDependentOn("Test")
+	.Does(()=> {
+		DotNetCorePublish(solutionFolder, new DotNetCorePublishSettings
+		{
+			NoRestore = true,
+			Configuration = configuration,
+			NoBuild = true,
+			OutputDirectory = outputFolder
+		});
+	});
+
+ RunTarget(target);   
+
+----- end build.cake ------------------
+
+PS C:\CakeDemo> dotnet cake (before publish task)
+PS C:\CakeDemo> dotnet cake (after publish task)
+PS C:\CakeDemo> dotnet cake
+PS C:\CakeDemo> dotnet-cake.exe "C:\CakeDemo\build.cake" --target="clean" --verbosity=normal
+
+---------- Learning build cake ---------------
+
+Compile			Test			Package				Deploy
+dotnet build	dotnet test		dotnet publish		Curl
+								zip
+
